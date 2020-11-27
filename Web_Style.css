@@ -1,3 +1,16 @@
-﻿body
-{
+﻿nav {
+    float: left;
+    padding: 15px;
+    background-color: beige;
+    height: 100vh;
+    width: 1500px;
+}
+
+
+
+.website {
+    text-decoration: none;
+}
+.Home{
+    text-decoration:none;
 }
