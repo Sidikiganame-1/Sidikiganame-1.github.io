@@ -2,15 +2,52 @@
     float: left;
     padding: 15px;
     background-color: beige;
-    height: 100vh;
+    height: 200vh;
     width: 1500px;
 }
-
 
 
 .website {
     text-decoration: none;
 }
-.Home{
-    text-decoration:none;
+
+div .Menu{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
+.nav .Menu {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+.Item {
+    display: flex;
+    padding: 1.6rem 1rem;
+    font-size: 1rem;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: block;
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+
+
+.Social_Media{
+  text-align: center;
+}
+img{
+    padding-bottom: 35px;
+    width:50%;
+    height:750px;
+   
+}
+
